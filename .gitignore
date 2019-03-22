@@ -1,0 +1,24 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+
+# mstest test results
+TestResults
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+UpgradeLog.htm
+
+# User-specific VS version upgrade folders
+Backup
+
+# NuGet Packages Directory
+[Pp]ackages/
+
+# Generated NuGet Packages
+*.nupkg
+
+~$*
+*.exe
