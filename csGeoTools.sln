@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.20617.1 PREVIEW
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csGeoTools", "csGeoTools\csGeoTools.csproj", "{A93D049E-8B0C-4CB2-9FCD-75640C1ACFAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunamoGpx", "csGeoTools\SunamoGpx.csproj", "{A93D049E-8B0C-4CB2-9FCD-75640C1ACFAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csGeoTools.Tests", "csGeoTools.Tests\csGeoTools.Tests.csproj", "{EF185332-ED96-4082-B29A-67BAD67EDB65}"
 EndProject
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6381B4BC-3538-4F5B-B163-FC34BB95D2EF}
 	EndGlobalSection
 EndGlobal
