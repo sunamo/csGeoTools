@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 //      Revision
 //
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
-// durch Einsatz von '*', wie in nachfolgendem Beispiel:
+// durch Einsatz von AllChars.asterisk, wie in nachfolgendem Beispiel:
 // [Assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

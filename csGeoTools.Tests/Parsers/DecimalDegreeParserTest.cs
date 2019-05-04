@@ -28,7 +28,7 @@ namespace csGeoTools.Tests.Parsers
             Assert.IsFalse(parser.CanParse("LOL KITTENZ 1.1, 2.2"));
             Assert.IsFalse(parser.CanParse("1.0 1.0, 1.0"));
             Assert.IsFalse(parser.CanParse(""));
-            Assert.IsFalse(parser.CanParse(" "));
+            Assert.IsFalse(parser.CanParse(AllStrings.space));
         }
         
         [TestMethod]
