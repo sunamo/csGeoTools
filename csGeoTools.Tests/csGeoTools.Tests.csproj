@@ -70,12 +70,6 @@
     <Compile Include="ProjectionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\csGeoTools\SunamoGpx.csproj">
-      <Project>{a93d049e-8b0c-4cb2-9fcd-75640c1acfaa}</Project>
-      <Name>SunamoGpx</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
