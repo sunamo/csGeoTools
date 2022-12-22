@@ -1,4 +1,4 @@
-﻿using csGeoTools.Parsers;
+using csGeoTools.Parsers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

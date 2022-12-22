@@ -1,4 +1,4 @@
-﻿using csGeoTools.Parsers.gpx.gc101;
+using csGeoTools.Parsers.gpx.gc101;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
