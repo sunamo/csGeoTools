@@ -1,5 +1,5 @@
 ---
-schema_version: 3
+schema_version: 4
 type: tests
 file_count: 19
 delete_recommendation_percent: 60
@@ -18,3 +18,11 @@ Testovací projekt (MSTest, net7.0-windows) ke knihovně csGeoTools pro geografi
 Staženo z GitHubu: **ano** — [ConnectedCaching/csGeoTools](https://github.com/ConnectedCaching/csGeoTools)
 
 - Zdroj určen podle: git hash-object dvou vzorových souborů Gc101Sample.gpx a Gpx10Sample.gpx se shoduje s blob sha v upstreamu, všech 14 souborů v csGeoTools.Tests má stejné názvy a cesty jako upstream, hledání gh search csGeoTools vrátilo jen tento repozitář; ostatní testy jsou lokálně upravené (jiné hashe).
+
+## Doporučení ke smazání
+
+Doporučení ke smazání: **60 %** — zdrojáky knihovny chybí, zůstaly jen testy, ale mají hodnotu jako referenční sada.
+
+- Repo má 19 souborů, jen MSTest testy (net7.0) ke knihovně csGeoTools.
+- Testy pokrývají GeoPoint, vzdálenosti, azimuty, projekce a parsery GPX, což může být užitečné jako vzor.
+- Původ souvisí s GitHubem, samotná knihovna v repu není, takže testy bez ní neběží.
