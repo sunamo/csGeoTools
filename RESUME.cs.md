@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: tests
 file_count: 19
 delete_recommendation_percent: 60
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 16:13:28
 github_origin: yes
 github_source_url: https://github.com/ConnectedCaching/csGeoTools
+first_commit_date: 2019-03-22
+last_commit_date: 2026-09-25
+commit_count: 24
 ---
 
 ## Description
@@ -26,3 +29,11 @@ Doporučení ke smazání: **60 %** — zdrojáky knihovny chybí, zůstaly jen 
 - Repo má 19 souborů, jen MSTest testy (net7.0) ke knihovně csGeoTools.
 - Testy pokrývají GeoPoint, vzdálenosti, azimuty, projekce a parsery GPX, což může být užitečné jako vzor.
 - Původ souvisí s GitHubem, samotná knihovna v repu není, takže testy bez ní neběží.
+
+## Historie commitů
+
+- První commit: 2019-03-22
+- Poslední commit: 2026-09-25
+- Celkem commitů: 24
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
