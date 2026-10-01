@@ -1,15 +1,17 @@
 ---
-schema_version: 5
+schema_version: 6
 type: tests
 file_count: 19
-delete_recommendation_percent: 60
-generated_date: 2026-09-30
-generated_time: 16:13:28
-github_origin: yes
+avg_lines_per_file: 50
+move_to_legacy_percent: 60
+generated_date: 2026-10-01
+generated_time: 16:41:39
 github_source_url: https://github.com/ConnectedCaching/csGeoTools
-first_commit_date: 2019-03-22
-last_commit_date: 2026-09-25
-commit_count: 24
+last_build_ok: 
+last_build_date: 
+last_tests_run_date: 
+covered_lines: 
+total_lines: 
 ---
 
 ## Description
@@ -22,18 +24,15 @@ Staženo z GitHubu: **ano** — [ConnectedCaching/csGeoTools](https://github.com
 
 - Zdroj určen podle: git hash-object dvou vzorových souborů Gc101Sample.gpx a Gpx10Sample.gpx se shoduje s blob sha v upstreamu, všech 14 souborů v csGeoTools.Tests má stejné názvy a cesty jako upstream, hledání gh search csGeoTools vrátilo jen tento repozitář; ostatní testy jsou lokálně upravené (jiné hashe).
 
-## Doporučení ke smazání
+## Doporučení přesunu do legacy
 
-Doporučení ke smazání: **60 %** — zdrojáky knihovny chybí, zůstaly jen testy, ale mají hodnotu jako referenční sada.
+Doporučení přesunu do sunamocz-legacy.visualstudio.com: **60 %** — zdrojáky knihovny chybí, zůstaly jen testy, ale mají hodnotu jako referenční sada.
 
 - Repo má 19 souborů, jen MSTest testy (net7.0) ke knihovně csGeoTools.
 - Testy pokrývají GeoPoint, vzdálenosti, azimuty, projekce a parsery GPX, což může být užitečné jako vzor.
 - Původ souvisí s GitHubem, samotná knihovna v repu není, takže testy bez ní neběží.
 
-## Historie commitů
+## Vazby na moje repa
 
-- První commit: 2019-03-22
-- Poslední commit: 2026-09-25
-- Celkem commitů: 24
-
-- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
+- Submoduly: žádné
+- ProjectReference / PackageReference: žádné
