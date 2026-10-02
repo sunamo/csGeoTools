@@ -1,5 +1,9 @@
 # csGeoTools
 
+## Short description
+
+Testovací projekt (MSTest, net7.0-windows) ke knihovně csGeoTools pro geografické výpočty. Testuje GeoPoint, vzdálenosti, azimuty, projekce a parsery desetinných stupňů a GPX (GC 1.0.1, GPX 1.0). Samotná knihovna v repu chybí, jsou zde jen testy.
+
 Testy pro knihovnu csGeoTools (geografické výpočty a parsování GPX), net7.0-windows, MSTest.
 
 - V repu jsou jen testy v csGeoTools.Tests/; samotná knihovna csGeoTools zde chybí.
