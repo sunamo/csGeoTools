@@ -1,6 +1,6 @@
 ---
 schema_version: 6
-type: tests
+type: sample
 file_count: 19
 avg_lines_per_file: 50
 move_to_legacy_percent: 60
