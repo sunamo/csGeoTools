@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="csGeoTools.Tests/csGeoTools.Tests.csproj" />
+  <Project Path="csGeoTools/csGeoTools.csproj" />
+</Solution>
