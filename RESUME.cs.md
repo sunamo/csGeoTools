@@ -1,17 +1,26 @@
 ---
-schema_version: 6
-type: library
+schema_version: 11
+type: forked-notmine-library
+category_override: none
 file_count: 68
+file_extensions: cs:60, csproj:2, gpx:2, md:2, noext:1, nuspec:1, slnx:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 45
+total_lines: not run
+metrics_lm: 2026-10-01 16:46:28
 move_to_legacy_percent: 70
-generated_date: 2026-10-01
-generated_time: 16:46:28
+description_updated: 2026-10-01
+links_updated: 2026-10-01
 github_source_url: https://github.com/ConnectedCaching/csGeoTools
-last_build_ok: 
-last_build_date: 
-last_tests_run_date: 
-covered_lines: 
-total_lines: 
+origin_status: found
+origin_checked: 2026-10-01
+article_source_url: not run
+article_status: pending
+article_checked: not run
+last_build_ok: not run
+last_build_date: not run
+last_tests_run_date: not run
+covered_lines: not run
 ---
 
 ## Description
